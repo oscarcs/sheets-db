@@ -1,0 +1,23 @@
+{
+  "name": "sheets-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=sheets-db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarcs/sheets-db.git"
+  },
+  "author": "Oscar Sims",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oscarcs/sheets-db/issues"
+  },
+  "homepage": "https://github.com/oscarcs/sheets-db#readme",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.3",
+    "googleapis": "^111.0.0"
+  }
+}
